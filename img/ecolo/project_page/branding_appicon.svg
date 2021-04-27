@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="103px" viewBox="0 0 100 103" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>compact logo</title>
+    <defs>
+        <path d="M76,0 C89.25483,0 100,10.74517 100,24 L100,76 C100,89.25483 89.25483,100 76,100 L24,100 C10.74517,100 0,89.25483 0,76 L0,24 C0,10.74517 10.74517,0 24,0 L76,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5-Écolo-Portfolio" transform="translate(-80.000000, -186.000000)">
+            <g id="compact-logo" transform="translate(80.000000, 186.000000)">
+                <g id="Group-3">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <polygon id="Fill-1" fill="#A7BDDB" mask="url(#mask-2)" points="-5 -5 105 -5 105 105 -5 105"></polygon>
+                </g>
+                <text id="É" font-family="Nunito-Bold, Nunito" font-size="72" font-weight="bold" fill="#000000">
+                    <tspan x="28" y="78">É</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
