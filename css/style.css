@@ -1,4 +1,14 @@
+header {
+  background-color: #ff44c4;
+  padding: 10px;
+  margin: 10px;
+  border-bottom: 3px solid #4a4a4a;
+  position: relative;
+}
 
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-family: 'opensans', sans-serif;
@@ -65,10 +75,9 @@ a:active {
   color: #4a148c;
 }
 
-
-
-
-
+.socialicon {
+  width: 40px;
+}
 
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
@@ -93,4 +102,10 @@ a:active {
 .button.contact:hover {
   background-color: #ce93d8;
   color: #4a148c;
+}
+
+/* Layout styling */
+
+.container {
+  padding: 0 15px;
 }
