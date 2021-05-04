@@ -11,71 +11,76 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body home>
+<body>
   <header>
     <section>
-    <div class="container">
-      <a href="index.html">Andrea Zingrosch</a>
-      <nav>
-        <ul class="navigation">
-          <li><a href="index.html">Work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+      <div class="container">
+        <a class="logo" href="index.html">Andrea Zingrosch</a>
+        <nav>
+          <ul class="navigation">
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </section>
   </header>
 
   <main>
-    <section>
+    <section id="hero">
       <div class="container">
-      <div>
-        <h1>Hello, my name is Andrea Zingrosch. <span> I am a Berlin-based UI Designer passionate about film photography.</span></h1>
-        <p>
-          I am a Content Specialist turned UI Designer with a passion for analogue photography and screenprinting. I love getting new ideas, taking in different opinions and implementing them into my craft.
-        </p>
-      </div>
-
-    <div>
-      <div>
-        <h2>My work</h2>
         <div>
-          <div>
+          <h1>Hello, my name is Andrea Zingrosch. <span> I am a Berlin-based UI Designer passionate about film photography.</span></h1>
+          <p>
+            I am a Content Specialist turned UI Designer with a passion for analogue photography and screenprinting. I love getting new ideas, taking in different opinions and implementing them into my craft.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="work">
+      <div class="container">
+        <h1>My work</h1>
+        <div class="row">
+          <div class="column">
             <picture>
               <source srcset="img/ecolo/cover.ecolo@1x.jpg" media="(max-width:767px)"><img src="img/ecolo/cover.ecolo@2x.jpg" alt="My Image">
             </picture>
           </div>
-          <div>
-            <h3>Écolo</h3>
+          <div class="column">
+            <h2>Écolo</h2>
             <p>
               Turn shopping into responsible action. Buy products while supporting sustainable economic concepts, protecting the environment and ensuring fair wages for everyone involved.
             </p>
             <a href="ecolo.html" class="button">view project</a>
           </div>
         </div>
-        <div>
-          <div>
+
+        <div class="row">
+          <div class="column">
             <picture>
               <source srcset="img/utero/cover.utero@1x.jpg" media="(max-width:767px)"><img src="img/utero/cover.utero@2x.jpg" alt="My Image">
             </picture>
           </div>
-          <div>
-            <h3>Utero</h3>
+          <div class="column">
+            <h2>Utero</h2>
             <p>
               Track your menstruation and keep an overview of your cycle without being reminded about your fertility.
             </p>
             <a href="" class="button">view project</a>
           </div>
         </div>
-        <div>
-          <div>
+
+        <div class="row">
+          <div class="column">
             <picture>
               <source srcset="img/cibus/cover.cibus@1x.jpg" media="(max-width:767px)"><img src="img/cibus/cover.cibus@2x.jpg" alt="My Image">
             </picture>
           </div>
-          <div>
-            <h3>Cibus</h3>
+          <div class="column">
+            <h2>Cibus</h2>
             <p>
               Cook your delicious meals with simple explanations that are easy to follow.
             </p>
@@ -83,9 +88,8 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
+
   </main>
 
   <footer>
