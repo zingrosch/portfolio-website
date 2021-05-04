@@ -11,32 +11,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body about>
+<body>
+
   <header>
-    <div>
-      <a href="index.html">Andrea Zingrosch</a>
-      <nav>
-        <ul>
-          <li><a href="index.html">Work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <main>
-
-    <div>
-      <div>
-        <h2>About</h2>
+    <section>
+      <div class="container">
+        <a class="logo" href="index.html">Andrea Zingrosch</a>
+        <nav>
+          <ul class="navigation">
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
       </div>
-    </div>
+    </section>
+  </header>
 
-    <div>
-      <div>
-        <img src="img/portrait.jpg" alt="My Image">
-        <div>
-          <div>
+  <main>
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <h1>About</h1>
+        </div>
+        <div class="row">
+          <img src="img/portrait.jpg" alt="My Image">
+        </div>
+
+        <div class="row">
+          <div class="column">
             <h2>My Story</h2>
             <p>I am a Content Specialist turned UI Designer with a passion for film photography and screenprinting. Those insights guide me when creating designs that speak to users and help them navigate interfaces with ease. I love getting new
               ideas, taking in different opinions and implementing them into my craft.</p>
@@ -46,40 +49,41 @@
             </p>
             <p>Due to my work experience in several countries, my cross-cultural communication skills are outstanding. I am good at reaching solutions among departments to meet the needs of business partners and customers alike. I would love to work
               for businesses providing an inclusive environment where I can grow, be it as a designer or in another area within UI such as user psychology or accessibility.</p>
-            <a href="files/cv_zingrosch.pdf" target="_blank">View resume</a>
           </div>
-          <div>
-            <h2>Skills & Tools</h2>
-            <div>
-              <div>
-                <h3>Relevant Skills</h3>
-                <ul>
-                  <li>Wireframing</li>
-                  <li>Prototyping</li>
-                  <li>Mockups</li>
-                  <li>User Personas</li>
-                  <li>Style Guides</li>
-                  <li>Copywriting</li>
-                  <li>Project Management</li>
-                </ul>
-              </div>
-              <div>
-                <h3>Tools</h3>
-                <ul>
-                  <li>Sketch</li>
-                  <li>Invision</li>
-                  <li>Affinity Design</li>
-                  <li>Figma</li>
-                </ul>
-              </div>
+          <div class="column">
+            <a href="files/cv_zingrosch.pdf" class="button" target="_blank">View resume</a>
+          </div>
+        </div>
+        <div class="row">
+          <h2>Skills & Tools</h2>
+            <div class="column">
+              <h3>Relevant Skills</h3>
+              <ul>
+                <li>Wireframing</li>
+                <li>Prototyping</li>
+                <li>Mockups</li>
+                <li>User Personas</li>
+                <li>Style Guides</li>
+                <li>Copywriting</li>
+                <li>Project Management</li>
+              </ul>
             </div>
+            <div class="column">
+              <h3>Tools</h3>
+              <ul>
+                <li>Sketch</li>
+                <li>Invision</li>
+                <li>Affinity Design</li>
+                <li>Figma</li>
+              </ul>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   </main>
+
   <footer>
-    <div>
+    <div class="container">
       <h2>Get in Touch</h2>
       <p>
         Do you like my work and want to discuss opportunities? Please get in touch!
@@ -93,7 +97,7 @@
         <a href="mailto:andrea.zingrosch@icloud.com" class="button contact">send email</a>
       </div>
       <div>
-        <a href="https://www.linkedin.com/in/azingrosch/" target="_blank">
+        <a href="https://www.linkedin.com/in/azingrosch/" class="socialicon" target="_blank">
           <svg enable-background="new 0 0 56.693 56.693" height="56.693px" id="Layer_1" version="1.1" viewbox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g>
               <path
