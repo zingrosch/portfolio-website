@@ -116,9 +116,8 @@ a:active {
 
 .logo {
   font-family: 'Major Mono Display', monospace;
-  font-size: 28px;
-  text-align: center;
-  color: #000000
+  font-size: 24px;
+  color: #000000 !important;
 }
 
 header {
@@ -128,10 +127,6 @@ header {
   text-align: center;
   padding: 10px 0;
   box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.8);
-}
-
-.header navigation {
-  color: #000000;
 }
 
 nav > ul {
@@ -153,7 +148,7 @@ nav > ul > li > a {
 }
 
 nav > ul > li > a:visited {
-  color: #4a148c;
+  color: #000000;
 }
 
 nav > ul > li > a:hover {
@@ -170,11 +165,9 @@ nav > ul > li > a:active {
 
 #hero {
   background-color: #B0C4DE;
-  padding: 60px 0;
-  display: inline-block;
-  width: 100%;
+  padding: 20px 0;
 }
 
 main {
-  padding-top: 102px;
+  padding-top: 115px;
 }
