@@ -70,8 +70,8 @@ a:active {
 
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #c158dc;
-  color: #000000; /* needed to override the default link color */
+  background-color: #483D8B;
+  color: #F5F5F5 !important; /* needed to override the default link color */
   font-weight: 400;
   padding: 12px;
   border-radius: 4px;
@@ -84,9 +84,9 @@ a:active {
 }
 .button.contact {
   background-color: transparent;
-  color: #4a148c;
+  color: #483D8B !important ;
   text-transform: uppercase;
-  border: 2px solid #4a148c;
+  border: 2px solid #483D8B;
 }
 .button.contact:hover {
   background-color: #ce93d8;
@@ -121,7 +121,7 @@ a:active {
 }
 
 header {
-  background-color: #F0F8FF;
+  background-color: #E6E6FA;
   position: fixed;
   width: 100%;
   text-align: center;
@@ -160,12 +160,12 @@ nav > ul > li > a:active {
 }
 
 #about {
-  padding: 60px 0;
+  padding: 10px 0;
 }
 
 #hero {
-  background-color: #B0C4DE;
-  padding: 20px 0;
+  background-color: #F0FFF0;
+  padding: 10px 0;
 }
 
 main {
