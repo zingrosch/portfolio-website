@@ -64,7 +64,7 @@ a:active {
   color: #8e24aa;
 }
 
-.socialicon {
+.socialicon svg {
   width: 36px;
 }
 
@@ -107,20 +107,31 @@ a:active {
 
 #hero h1 {
   text-align: center; /* Centers text */
+  color: #000000;
+}
+
+#hero p {
+  color: #000000;
 }
 
 .logo {
-  max-width: 250px;
+  font-family: 'Major Mono Display', monospace;
+  font-size: 28px;
   text-align: center;
+  color: #000000
 }
 
 header {
-  background-color: #ffe4c4;
+  background-color: #F0F8FF;
   position: fixed;
-  width: 100%
+  width: 100%;
   text-align: center;
   padding: 10px 0;
   box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.8);
+}
+
+.header navigation {
+  color: #000000;
 }
 
 nav > ul {
@@ -153,13 +164,17 @@ nav > ul > li > a:active {
   color: #8e24aa;
 }
 
+#about {
+  padding: 60px 0;
+}
+
 #hero {
-  background-color: #ffe4c4;
-  padding: 20px 0;
+  background-color: #B0C4DE;
+  padding: 60px 0;
   display: inline-block;
   width: 100%;
 }
 
 main {
-  padding-top: 120px;
+  padding-top: 102px;
 }
