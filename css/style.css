@@ -128,6 +128,14 @@ a:active {
   text-align: center;
 }
 
+#hero span {
+  display: block;
+  font-size: 80%; /* changed the font size to be 80% of it parent, the h1 */
+  font-weight: 600;
+  color:#000000;
+  margin-top: 1em;
+}
+
 .logo {
   font-family: 'Major Mono Display', monospace;
   font-size: 24px;
@@ -274,15 +282,11 @@ Medium devices (640px and larger)
 
   #hero span {
     display: block;
-    font-size: 80%;
-    font-weight: 600;
-    color: #000000;
-    margin-top: 1em;
   }
 
   .col-md-6 {
-    width: 50%;
-  }
+  width: 50%;
+}
 
   [class*="col-"] {
     float: left;
