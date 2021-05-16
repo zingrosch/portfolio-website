@@ -135,9 +135,10 @@ a:active {
 
 #hero span {
   display: block;
-  font-size: 80%; /* changed the font size to be 80% of it parent, the h1 */
+  font-size: 80%;
+  /* changed the font size to be 80% of it parent, the h1 */
   font-weight: 600;
-  color:#000000;
+  color: #000000;
   margin-top: 1em;
 }
 
@@ -262,11 +263,13 @@ footer {
 .copy {
   margin-bottom: 0;
   padding-bottom: 1em;
-  font-size: 80%; /* 80% of 16px, the parent.*/
+  font-size: 80%;
+  /* 80% of 16px, the parent.*/
 }
 
 .story {
-  margin-bottom: 3em; /* 3 times the font size*/
+  margin-bottom: 3em;
+  /* 3 times the font size*/
 }
 
 /* ==============================
@@ -304,18 +307,53 @@ Medium devices (640px and larger)
     display: block;
   }
 
-  .col-md-1 {width: 8.33%;}
-.col-md-2 {width: 16.66%;}
-.col-md-3 {width: 25%;}
-.col-md-4 {width: 33.33%;}
-.col-md-5 {width: 41.66%;}
-.col-md-6 {width: 50%;}
-.col-md-7 {width: 58.33%;}
-.col-md-8 {width: 66.66%;}
-.col-md-9 {width: 75%;}
-.col-md-10 {width: 83.33%;}
-.col-md-11 {width: 91.66%;}
-.col-md-12 {width: 100%;}
+  .col-md-1 {
+    width: 8.33%;
+  }
+
+  .col-md-2 {
+    width: 16.66%;
+  }
+
+  .col-md-3 {
+    width: 25%;
+  }
+
+  .col-md-4 {
+    width: 33.33%;
+  }
+
+  .col-md-5 {
+    width: 41.66%;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  .col-md-7 {
+    width: 58.33%;
+  }
+
+  .col-md-8 {
+    width: 66.66%;
+  }
+
+  .col-md-9 {
+    width: 75%;
+  }
+
+  .col-md-10 {
+    width: 83.33%;
+  }
+
+  .col-md-11 {
+    width: 91.66%;
+  }
+
+  .col-md-12 {
+    width: 100%;
+  }
 
   [class*="col-"] {
     float: left;
@@ -335,7 +373,6 @@ Medium devices (640px and larger)
   img {
     max-width: 300px;
   }
-
 }
 
 /* ==============================
@@ -353,64 +390,98 @@ Large devices (1024px or larger)
   }
 
   #about .row:nth-child(2) {
-    text-align:center;
+    text-align: center;
   }
 
   #about .row:nth-child(2) img {
     max-width: 500px;
   }
 
-  .col-lg-1 {width: 8.33%;}
-.col-lg-2 {width: 16.66%;}
-.col-lg-3 {width: 25%;}
-.col-lg-4 {width: 33.33%;}
-.col-lg-5 {width: 41.66%;}
-.col-lg-6 {width: 50%;}
-.col-lg-7 {width: 58.33%;}
-.col-lg-8 {width: 66.66%;}
-.col-lg-9 {width: 75%;}
-.col-lg-10 {width: 83.33%;}
-.col-lg-11 {width: 91.66%;}
-.col-lg-12 {width: 100%;}
+  .col-lg-1 {
+    width: 8.33%;
+  }
 
+  .col-lg-2 {
+    width: 16.66%;
+  }
 
-.abouttitle {
-  text-align: center;
-}
+  .col-lg-3 {
+    width: 25%;
+  }
 
-.mystorytitle {
-  text-align: center;
-}
+  .col-lg-4 {
+    width: 33.33%;
+  }
 
-.textaboutmyself {
-  max-width: 700px;
-  margin: auto;
-}
+  .col-lg-5 {
+    width: 41.66%;
+  }
 
-.viewresumebutton {
-  text-align: center;
-}
+  .col-lg-6 {
+    width: 50%;
+  }
 
-.skillspart {
-  text-align: center;
-}
+  .col-lg-7 {
+    width: 58.33%;
+  }
 
-.story {
-  margin-bottom: 4em; /* 3 times the font size*/
-}
+  .col-lg-8 {
+    width: 66.66%;
+  }
 
-.flex-row {
-  display: flex;
-  padding: 50px 0; 
-}
+  .col-lg-9 {
+    width: 75%;
+  }
 
-.flex-row .column {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
+  .col-lg-10 {
+    width: 83.33%;
+  }
 
+  .col-lg-11 {
+    width: 91.66%;
+  }
+
+  .col-lg-12 {
+    width: 100%;
+  }
+
+  .abouttitle {
+    text-align: center;
+  }
+
+  .mystorytitle {
+    text-align: center;
+  }
+
+  .textaboutmyself {
+    max-width: 700px;
+    margin: auto;
+  }
+
+  .viewresumebutton {
+    text-align: center;
+  }
+
+  .skillspart {
+    text-align: center;
+  }
+
+  .story {
+    margin-bottom: 4em;
+    /* 3 times the font size*/
+  }
+
+  .flex-row {
+    display: flex;
+    padding: 50px 0;
+  }
+
+  .flex-row .column {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 /* ==============================
