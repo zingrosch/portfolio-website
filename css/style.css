@@ -117,6 +117,11 @@ a:active {
   border-bottom: 1px solid #4a4a4a;
 }
 
+#work .row:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
 #hero h1 {
   text-align: center;
   /* Centers text */
@@ -187,7 +192,7 @@ nav>ul>li>a:active {
 
 #hero {
   background-color: #F0FFF0;
-  padding: 10px 0;
+  padding: 50px 0;
 }
 
 main {
@@ -251,6 +256,17 @@ main {
 footer {
   background: #E6E6FA;
   text-align: center;
+  padding-top: 1em;
+}
+
+.copy {
+  margin-bottom: 0;
+  padding-bottom: 1em;
+  font-size: 80%; /* 80% of 16px, the parent.*/
+}
+
+.story {
+  margin-bottom: 3em; /* 3 times the font size*/
 }
 
 /* ==============================
@@ -265,11 +281,15 @@ Medium devices (640px and larger)
   nav {
     width: auto;
     float: right;
-    margin-top: 4px;
+    margin-top: 7px;
+  }
+
+  nav>ul {
+    margin: 0;
   }
 
   main {
-    padding-top: 99px;
+    padding-top: 68px;
   }
 
   body {
@@ -284,9 +304,18 @@ Medium devices (640px and larger)
     display: block;
   }
 
-  .col-md-6 {
-  width: 50%;
-}
+  .col-md-1 {width: 8.33%;}
+.col-md-2 {width: 16.66%;}
+.col-md-3 {width: 25%;}
+.col-md-4 {width: 33.33%;}
+.col-md-5 {width: 41.66%;}
+.col-md-6 {width: 50%;}
+.col-md-7 {width: 58.33%;}
+.col-md-8 {width: 66.66%;}
+.col-md-9 {width: 75%;}
+.col-md-10 {width: 83.33%;}
+.col-md-11 {width: 91.66%;}
+.col-md-12 {width: 100%;}
 
   [class*="col-"] {
     float: left;
@@ -302,6 +331,11 @@ Medium devices (640px and larger)
   #about-page h3 {
     margin-top: 0;
   }
+
+  img {
+    max-width: 300px;
+  }
+
 }
 
 /* ==============================
@@ -312,15 +346,71 @@ Large devices (1024px or larger)
     width: 60%;
   }
 
-  .col-lg-5 {
-    width: 40%;
-  }
-
   .container {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
+
+  #about .row:nth-child(2) {
+    text-align:center;
+  }
+
+  #about .row:nth-child(2) img {
+    max-width: 500px;
+  }
+
+  .col-lg-1 {width: 8.33%;}
+.col-lg-2 {width: 16.66%;}
+.col-lg-3 {width: 25%;}
+.col-lg-4 {width: 33.33%;}
+.col-lg-5 {width: 41.66%;}
+.col-lg-6 {width: 50%;}
+.col-lg-7 {width: 58.33%;}
+.col-lg-8 {width: 66.66%;}
+.col-lg-9 {width: 75%;}
+.col-lg-10 {width: 83.33%;}
+.col-lg-11 {width: 91.66%;}
+.col-lg-12 {width: 100%;}
+
+
+.abouttitle {
+  text-align: center;
+}
+
+.mystorytitle {
+  text-align: center;
+}
+
+.textaboutmyself {
+  max-width: 700px;
+  margin: auto;
+}
+
+.viewresumebutton {
+  text-align: center;
+}
+
+.skillspart {
+  text-align: center;
+}
+
+.story {
+  margin-bottom: 4em; /* 3 times the font size*/
+}
+
+.flex-row {
+  display: flex;
+  padding: 50px 0; 
+}
+
+.flex-row .column {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
 }
 
 /* ==============================
