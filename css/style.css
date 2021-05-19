@@ -276,6 +276,11 @@ list {
   list-style-type: none;
 } /* gave ul the class "list"; did not work*/
 
+.userflowdiagram {
+  width: 100%; 
+}
+
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
