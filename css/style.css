@@ -272,6 +272,10 @@ footer {
   /* 3 times the font size*/
 }
 
+list {
+  list-style-type: none;
+} /* gave ul the class "list"; did not work*/
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -373,6 +377,17 @@ Medium devices (640px and larger)
   img {
     max-width: 300px;
   }
+
+.desktop_screens {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mobile_screens {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 }
 
 /* ==============================
