@@ -276,10 +276,18 @@ footer {
   /* 3 times the font size*/
 }
 
-list {
+.skillspart ul {
   list-style-type: none;
-} /* gave ul the class "list"; did not work*/
+  padding: 0;
+}
 
+.credits {
+  text-align: right;
+}
+
+.thumbsup {
+  width: 100px;
+}
 
 
 /* ==============================
@@ -380,10 +388,6 @@ Medium devices (640px and larger)
     margin-top: 0;
   }
 
-  img {
-    max-width: 300px;
-  }
-
 .desktop_screens {
   display: flex;
   flex-wrap: wrap;
@@ -392,6 +396,23 @@ Medium devices (640px and larger)
 .mobile_screens {
   display: flex;
   flex-wrap: wrap;
+}
+
+.myrole img {
+  max-width: 250px;
+}
+
+.guiding_principles img {
+  max-width: 300px;
+}
+
+.fivemobiles .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user_illustration {
+  width: 120px;
 }
 
 }
@@ -484,6 +505,11 @@ Large devices (1024px or larger)
   }
 
   .skillspart {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .skillspart h2 {
     text-align: center;
   }
 
@@ -504,8 +530,9 @@ Large devices (1024px or larger)
     justify-content: center;
   }
 
-.tester_avatar {
-  max-width: 33%;
+.avatar img {
+  max-width: 120px;
+  align: center;
 }
 
 }
