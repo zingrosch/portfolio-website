@@ -15,14 +15,17 @@
 <body>
   <header>
     <div class="container">
-      <a class="logo" href="index.html">Andrea Zingrosch</a>
-      <nav>
-        <ul class="navigation">
-          <li><a href="index.html">Work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+      <div class="navtoggle" id="myNavtoggle">
+        <a class="logo" href="index.html">Andrea Zingrosch</a>
+        <nav>
+          <ul class="navigation">
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
 
@@ -179,20 +182,20 @@
         </div>
         <div class="column">
           <div class="row">
-            <div class="column">
+            <div class="column logo">
               <h3>Logo</h3>
-              <picture>
+              <picture class="col-md-2">
                 <source srcset="img/ecolo/project_page/branding_appicon.svg" media="(max-width:767px)">
                 <img src="img/ecolo/project_page/branding_appicon.svg" alt="Appicon">
               </picture>
               <p>Compact</p>
-              <picture>
+              <picture class="col-md-2">
                 <source srcset="img/ecolo/project_page/logo_full@2x.png" media="(max-width:767px)">
                 <img src="img/ecolo/project_page/logo_full@2x.png" alt="Full Logo">
               </picture>
               <p>Full</p>
             </div>
-            <div class="column">
+            <div class="column col-md-2">
               <p>Écolo [ekɔlo]</p>
               <p>adjective</p>
               <p>short for écologique (French)</p>
@@ -200,12 +203,14 @@
             </div>
           </div>
           <div class="row">
-            <picture>
+            <picture class="col-md-2">
               <source srcset="img/ecolo/project_page/branding_mockup.svg" media="(max-width:767px)">
               <img src="img/ecolo/project_page/branding_mockup.svg" alt="mobile visualizing the product overview">
             </picture>
           </div>
         </div>
+
+
         <div class="column">
           <div class="row">
             <div class="column">
@@ -260,7 +265,7 @@
             <p>abcdefghijklmnopqrstuvwxyz</p>
             <p>1234567890</p>
           </div>
-          <div class="column">
+          <div class="column col-md-3">
             <h3>Colours</h3>
             <p>Primary Secondary Text</p>
             <picture>
@@ -268,7 +273,7 @@
               <img src="img/ecolo/project_page/colours@2x.png" alt="image showing the primary colours (beige tones), secondary colours (blue tones) and the text colour (black)">
             </picture>
           </div>
-          <div class="column">
+          <div class="column col-md-3">
             <h3>Illustrations</h3>
             <picture>
               <source srcset="img/ecolo/project_page/illustrations.svg" media="(max-width:767px)">
@@ -637,6 +642,10 @@
     </div>
   </footer>
 
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
 
 </body>
