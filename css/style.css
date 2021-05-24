@@ -150,26 +150,21 @@ a:active {
   font-family: 'Major Mono Display', monospace;
   font-size: 24px;
   color: #000000 !important;
+  max-width: 150px;
 }
 
 header {
   background-color: #E6E6FA;
   position: fixed;
   width: 100%;
-  text-align: center;
-  padding: 10px 0;
+  padding: 10px 0 4px;
   box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.8);
 }
 
 nav>ul {
   list-style-type: none;
   padding: 0;
-  width: 100%;
-  display: inline-block;
-}
-
-nav>ul>li {
-  display: inline-block;
+  margin: 0;
 }
 
 nav>ul>li>a {
@@ -201,61 +196,7 @@ nav>ul>li>a:active {
 }
 
 main {
-  padding-top: 115px;
-}
-
-@keyframes color-change {
-  0% {
-    fill: #edc655;
-  }
-
-  50% {
-    fill: #fcffad;
-  }
-
-  100% {
-    fill: #f76414;
-  }
-}
-
-.sun {
-  animation-duration: 4s;
-  animation-name: color-change;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-}
-
-@keyframes cloud-move {
-  from {
-    transform: translate(0, 50px);
-  }
-
-  to {
-    transform: translate(200px, 50px);
-  }
-}
-
-.cloud-front {
-  animation-duration: 30s;
-  animation-name: cloud-move;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-}
-
-@keyframes cloud-move-reverse {
-  from {
-    transform: translate(446px, 48px);
-  }
-
-  to {
-    transform: translate(100px, 48px);
-  }
-}
-
-.cloud-back {
-  animation: 34s cloud-move-reverse infinite alternate linear;
+  padding-top: 56px;
 }
 
 footer {
@@ -289,6 +230,27 @@ footer {
   width: 100px;
 }
 
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+  color: #000000;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+}
+
 
 /* ==============================
 Medium devices (640px and larger)
@@ -299,6 +261,10 @@ Medium devices (640px and larger)
     padding: 20px 0 13px;
   }
 
+  .logo {
+    min-width: 641px;
+  }
+
   nav {
     width: auto;
     float: right;
@@ -306,7 +272,11 @@ Medium devices (640px and larger)
   }
 
   nav>ul {
-    margin: 0;
+    margin: 1em 0;
+  }
+
+  nav>ul>li {
+    display: inline-block;
   }
 
   main {
@@ -413,6 +383,14 @@ Medium devices (640px and larger)
 
 .user_illustration {
   width: 120px;
+}
+
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+
+.navtoggle li:last-child {
+  display: none;
 }
 
 }
