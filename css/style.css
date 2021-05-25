@@ -226,8 +226,13 @@ footer {
   text-align: right;
 }
 
-.thumbsup {
+.thumbsup img {
   width: 100px;
+}
+
+.thumbsup {
+  text-align: center;
+  padding-top: 12px;
 }
 
 .navtoggle li:not(:last-child) {
@@ -251,6 +256,18 @@ footer {
   display: block;
 }
 
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
+
 
 /* ==============================
 Medium devices (640px and larger)
@@ -272,7 +289,7 @@ Medium devices (640px and larger)
   }
 
   nav>ul {
-    margin: 1em 0;
+    margin: 0 0;
   }
 
   nav>ul>li {
@@ -294,6 +311,12 @@ Medium devices (640px and larger)
   #hero span {
     display: block;
   }
+
+.mobile_screens .column {
+  width: 20%;
+  float: left;
+  padding: 10px;
+}
 
   .col-md-1 {
     width: 8.33%;
@@ -391,6 +414,11 @@ Medium devices (640px and larger)
 
 .navtoggle li:last-child {
   display: none;
+}
+
+.avatar img {
+  max-width: 100px;
+  align-items: center;
 }
 
 }
@@ -491,6 +519,10 @@ Large devices (1024px or larger)
     text-align: center;
   }
 
+  .skillspart ul {
+    padding-left: 120px;
+  }
+
   .story {
     margin-bottom: 4em;
     /* 3 times the font size*/
@@ -510,7 +542,7 @@ Large devices (1024px or larger)
 
 .avatar img {
   max-width: 120px;
-  align: center;
+  align-items: center;
 }
 
 }

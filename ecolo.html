@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/959bce24ea.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -21,8 +22,8 @@
           <ul class="navigation">
             <li><a href="index.html">Work</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a></li>
+            <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
           </ul>
         </nav>
       </div>
@@ -180,29 +181,23 @@
         <div class="row">
           <h2>Branding</h2>
         </div>
-        <div class="column">
-          <div class="row">
-            <div class="column logo">
-              <h3>Logo</h3>
+        <div class="row">
+          <div class="column">
+            <div class="row">
               <picture class="col-md-2">
-                <source srcset="img/ecolo/project_page/branding_appicon.svg" media="(max-width:767px)">
-                <img src="img/ecolo/project_page/branding_appicon.svg" alt="Appicon">
+                <source srcset="img/ecolo/project_page/name_explanation.png" media="(max-width:767px)">
+                <img src="img/ecolo/project_page/name_explanation.png" alt="Appicon">
               </picture>
-              <p>Compact</p>
-              <picture class="col-md-2">
-                <source srcset="img/ecolo/project_page/logo_full@2x.png" media="(max-width:767px)">
-                <img src="img/ecolo/project_page/logo_full@2x.png" alt="Full Logo">
-              </picture>
-              <p>Full</p>
             </div>
-            <div class="column col-md-2">
-              <p>Écolo [ekɔlo]</p>
-              <p>adjective</p>
-              <p>short for écologique (French)</p>
-              <p>„to be environmentally aware“ </p>
+            <div class="row logo">
+              <picture class="col-md-2">
+                <source srcset="img/ecolo/project_page/logo@2x.png" media="(max-width:767px)">
+                <img src="img/ecolo/project_page/logo@2x.png" alt="Appicon">
+              </picture>
             </div>
           </div>
-          <div class="row">
+
+          <div class="column">
             <picture class="col-md-2">
               <source srcset="img/ecolo/project_page/branding_mockup.svg" media="(max-width:767px)">
               <img src="img/ecolo/project_page/branding_mockup.svg" alt="mobile visualizing the product overview">
@@ -261,7 +256,7 @@
           <div class="column">
             <h3>Typography</h3>
             <p>Nunito is used throughout the app. Headers are to be capitalized in heavier weights than what is used for body type.</p>
-            <p>abcdefghijklmnopqrstuvwxyz</p>
+            <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
             <p>abcdefghijklmnopqrstuvwxyz</p>
             <p>1234567890</p>
           </div>
@@ -429,17 +424,8 @@
         <div class="row">
           <div class="column col-lg-6 col-md-6">
             <picture>
-              <source srcset="img/ecolo/project_page/pref_test_a@2x.jpg" media="(max-width:767px)">
-              <img src="img/ecolo/project_page/pref_test_a@2x.jpg" alt="mobile 1 showing the words add to cart on the button">
-            </picture>
-            <div class="thumbsup">
-            <img src="img/ecolo/project_page/icon_thumbsup.svg" alt="thumbsup">
-            </div>
-          </div>
-          <div class="column col-lg-6 col-md-6">
-            <picture>
-              <source srcset="img/ecolo/project_page/pref_test_b@2x.jpg" media="(max-width:767px)">
-              <img src="img/ecolo/project_page/pref_test_b@2x.jpg" alt="mobile 2 showing the words add to bag on the button">
+              <source srcset="img/ecolo/project_page/pref_test_a@2x.png" media="(max-width:767px)">
+              <img src="img/ecolo/project_page/pref_test_a@2x.png" alt="mobile 1 showing the words add to cart on the button">
             </picture>
           </div>
         </div>
@@ -456,61 +442,61 @@
           <h3>Mobile</h3>
         </div>
         <div class="row mobile_screens">
-          <div class="column col-lg-2 col-md-2">
+          <div class="column">
             <picture>
               <source srcset="img/ecolo/project_page/mobile_splashscreen@2x.jpg" media="(max-width:767px)">
               <img src="img/ecolo/project_page/mobile_splashscreen@2x.jpg" alt="final mobile design showing the splashscreen">
             </picture>
           </div>
-          <div class="column col-lg-2 col-md-2">
+          <div class="column">
             <picture>
               <source srcset="img/ecolo/project_page/mobile_productoverview@2x.jpg" media="(max-width:767px)">
               <img src="img/ecolo/project_page/mobile_productoverview@2x.jpg" alt="final mobile design showing product overview">
             </picture>
           </div>
-          <div class="column col-lg-2 col-md-2">
+          <div class="column">
             <picture>
               <source srcset="img/ecolo/project_page/mobile_confirmation@2x.jpg" media="(max-width:767px)">
               <img src="img/ecolo/project_page/mobile_confirmation@2x.jpg" alt="final mobile design showing the confirmation that product was added to the cart">
             </picture>
           </div>
-          <div class="column col-lg-2 col-md-2">
+          <div class="column">
             <picture>
               <source srcset="img/ecolo/project_page/mobile_productdetails@2x.jpg" media="(max-width:767px)">
               <img src="img/ecolo/project_page/mobile_productdetails@2x.jpg" alt="final mobile design showing the product detail page">
             </picture>
           </div>
-          <div class="column col-lg-2 col-md-2">
+          <div class="column">
             <picture>
               <source srcset="img/ecolo/project_page/mobile_cart@2x.jpg" media="(max-width:767px)">
               <img src="img/ecolo/project_page/mobile_cart@2x.jpg" alt="final mobile design showing the shopping cart filled with two items">
             </picture>
           </div>
-          <div class="column col-lg-2 col-md-2">
+          <div class="column">
             <picture>
               <source srcset="img/ecolo/project_page/mobile_member@2x.jpg" media="(max-width:767px)">
               <img src="img/ecolo/project_page/mobile_member@2x.jpg" alt="final mobile design asking if the user is already a member">
             </picture>
           </div>
-          <div class="column col-lg-2 col-md-2">
+          <div class="column">
             <picture>
               <source srcset="img/ecolo/project_page/mobile_delivery@2x.jpg" media="(max-width:767px)">
               <img src="img/ecolo/project_page/mobile_delivery@2x.jpg" alt="final mobile design showing the delivery address input field">
             </picture>
           </div>
-          <div class="column col-lg-2 col-md-2">
+          <div class="column">
             <picture>
               <source srcset="img/ecolo/project_page/mobile_payment@2x.jpg" media="(max-width:767px)">
               <img src="img/ecolo/project_page/mobile_payment@2x.jpg" alt="final mobile design showing the payment method choices">
             </picture>
           </div>
-          <div class="column col-lg-2 col-md-2">
+          <div class="column">
             <picture>
               <source srcset="img/ecolo/project_page/mobile_doublecheck@2x.jpg" media="(max-width:767px)">
               <img src="img/ecolo/project_page/mobile_doublecheck@2x.jpg" alt="final mobile design asking the user to double check the order">
             </picture>
           </div>
-          <div class="column col-lg-2 col-md-2">
+          <div class="column">
             <picture>
               <source srcset="img/ecolo/project_page/mobile_thankyou@2x.jpg" media="(max-width:767px)">
               <img src="img/ecolo/project_page/mobile_thankyou@2x.jpg" alt="final mobile design showing the thank you screen">
@@ -642,10 +628,7 @@
     </div>
   </footer>
 
-  <script
-    src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
 
 </body>
