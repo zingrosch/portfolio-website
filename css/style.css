@@ -285,10 +285,11 @@ footer {
 
 .brandingpicture {
   width: 320px;
-  align-items: center;
 }
 
 .mobilescreen {
+  display: flex;
+  justify-content: center;
   width: 300px;
 }
 
