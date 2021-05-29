@@ -139,7 +139,7 @@ a:active {
 
 #hero span {
   display: block;
-  font-size: 80%;
+  font-size: 65%;
   /* changed the font size to be 80% of it parent, the h1 */
   font-weight: 600;
   color: #000000;
@@ -190,7 +190,7 @@ nav>ul>li>a:active {
 }
 
 #hero {
-  background-color: #F0FFF0;
+  background-color: #F0F8FF;
   padding: 50px 0;
 }
 
@@ -209,12 +209,6 @@ footer {
   padding-bottom: 1em;
   font-size: 80%;
   /* 80% of 16px, the parent.*/
-}
-
-.myroleavatar {
-  display: flex;
-  justify-content: center;
-  width: 160px;
 }
 
 .story {
@@ -279,17 +273,31 @@ footer {
 }
 
 .avatar img {
-  max-width: 80px;
+  max-height: 140px;
+}
+
+.brandingpicture img {
+  max-width: 320px;
 }
 
 .brandingpicture {
-  width: 320px;
+  text-align: center;
 }
 
 .mobilescreen {
-  display: flex;
-  justify-content: center;
-  width: 300px;
+  text-align: center;
+}
+
+.mobilescreen img {
+  max-width: 320px;
+}
+
+.myrole img {
+  max-width: 160px;
+}
+
+.myroleavatar {
+  text-align: center;
 }
 
 /* ==============================
@@ -329,6 +337,10 @@ Medium devices (640px and larger)
 
   body {
     font-size: 18px;
+  }
+
+  .subheader {
+    font-size: 21px;
   }
 
   #hero {
@@ -443,10 +455,16 @@ Medium devices (640px and larger)
     display: none;
   }
 
-  .avatar img {
-    max-width: 100px;
-    text-align: center;
+  .mobilescreen img {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: 0;
   }
+
+.brandingpicture img {
+  max-width: 100%;
+}
+
 }
 
 /* ==============================
@@ -465,6 +483,10 @@ Large devices (1024px or larger)
 
   body {
     font-size: 20px;
+  }
+
+  .subheader {
+    font-size: 24px;
   }
 
   #about .row:nth-child(2) {
@@ -570,10 +592,6 @@ Large devices (1024px or larger)
     justify-content: center;
   }
 
-  .avatar img {
-    max-width: 120px;
-    align-items: center;
-  }
 }
 
 /* ==============================
